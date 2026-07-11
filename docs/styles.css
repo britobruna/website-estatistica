@@ -63,52 +63,84 @@ h2 {
   color: var(--branco);
 }
 
-/* Cartões das aulas */
-.quarto-grid-item {
-  border: none !important;
-  border-radius: 12px !important;
+/* =======================================================
+   CARDS DAS AULAS
+======================================================= */
+
+.aulas-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.aula-card {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 14px;
   overflow: hidden;
-  background-color: var(--branco);
-  box-shadow: 0 4px 16px rgba(20, 50, 85, 0.12);
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #e5ebf2;
+  box-shadow: 0 6px 20px rgba(20, 50, 85, .10);
+  transition: .25s;
 }
 
-.quarto-grid-item:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 9px 25px rgba(20, 50, 85, 0.18);
+.aula-card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(20,50,85,.18);
 }
 
-/* Imagens dos cartões */
-.quarto-grid-item img,
-.quarto-grid-item .card-img-top {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  object-position: center;
-  background-color: #f7f9fb;
+.aula-card img{
+  width:100%;
+  display:block;
+  height:auto;
+  object-fit:contain;
+  background:white;
 }
 
-/* Conteúdo dos cartões */
-.quarto-grid-item .card-body {
-  padding: 1.15rem;
+.aula-card-body{
+  padding:1.3rem;
+  display:flex;
+  flex-direction:column;
+  flex:1;
 }
 
-.quarto-grid-item .listing-title {
-  color: var(--azul-escuro);
-  font-size: 1.12rem;
-  font-weight: 700;
+.aula-card h3{
+  color:var(--azul-escuro);
+  font-size:1.25rem;
+  margin-bottom:.8rem;
 }
 
-.quarto-grid-item .listing-description {
-  color: var(--cinza-texto);
-  line-height: 1.5;
+.aula-card p{
+  color:var(--cinza-texto);
+  line-height:1.6;
+  flex:1;
 }
 
-/* Largura da página de aulas */
-.quarto-listing-container-grid {
-  margin-top: 1.5rem;
+.aula-link{
+  color:var(--azul-principal);
+  font-weight:700;
+  margin-top:1rem;
+}
+
+@media (max-width:1000px){
+
+.aulas-grid{
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media (max-width:700px){
+
+.aulas-grid{
+grid-template-columns:1fr;
+
+}
+
 }
 
 /* Links */
