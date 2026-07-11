@@ -5,87 +5,114 @@ page-layout: full
 toc: false
 ---
 
-<div class="aulas-grid">
+::: {.aulas-grid}
 
-<a class="aula-card" href="Notebooks/Aula_1.html">
-  <img src="Notebooks/Aula_1.png" alt="Capa da Aula 1">
-  <div class="aula-card-body">
-    <h3>Aula 1 — Amostragem</h3>
-    <p>Introdução aos conceitos de amostragem, principais técnicas de seleção de amostras e aplicações em projetos de pesquisa comunitários.</p>
-    <span class="aula-link">Abrir notebook →</span>
-  </div>
-</a>
+::: {.aula-card}
 
-<a class="aula-card" href="Notebooks/Aula_2.html">
-  <img src="Notebooks/Aula_2.png" alt="Capa da Aula 2">
-  <div class="aula-card-body">
-    <h3>Aula 2 — Distribuições de Probabilidade</h3>
-    <p>Estudo das distribuições Binomial, Normal e de Poisson, com aplicações em problemas de engenharia e ciência dos materiais.</p>
-    <span class="aula-link">Abrir notebook →</span>
-  </div>
-</a>
+[![](Notebooks/Aula_1.png){.aula-imagem}](Notebooks/Aula_1.html)
 
-<a class="aula-card" href="Notebooks/Aula_3.html">
-  <img src="Notebooks/Aula_3.png" alt="Capa da Aula 3">
-  <div class="aula-card-body">
-    <h3>Aula 3 — Estimativa e Correlação</h3>
-    <p>Apresentação dos métodos de estimação de parâmetros, análise de correlação e aplicações práticas em engenharia.</p>
-    <span class="aula-link">Abrir notebook →</span>
-  </div>
-</a>
+### [Aula 1 — Amostragem](Notebooks/Aula_1.html)
 
-<a class="aula-card" href="Notebooks/Aula_4.html">
-  <img src="Notebooks/Aula_4.png" alt="Capa da Aula 4">
-  <div class="aula-card-body">
-    <h3>Aula 4 — Testes de Hipóteses</h3>
-    <p>Fundamentos dos testes de hipóteses estatísticos, interpretação dos resultados e resolução de exemplos práticos.</p>
-    <span class="aula-link">Abrir notebook →</span>
-  </div>
-</a>
+Introdução aos conceitos e às principais técnicas de amostragem.
 
-<a class="aula-card" href="Notebooks/Aula_5.html">
-  <img src="Notebooks/Aula_5.png" alt="Capa da Aula 5">
-  <div class="aula-card-body">
-    <h3>Aula 5 — Testes de Normalidade e Homocedasticidade</h3>
-    <p>Avaliação da normalidade dos dados e da homogeneidade das variâncias por meio de gráficos e testes estatísticos.</p>
-    <span class="aula-link">Abrir notebook →</span>
-  </div>
-</a>
+<div class="aula-data">10 JUL. 2026</div>
 
-<a class="aula-card" href="Notebooks/Aula_6.html">
-  <img src="Notebooks/Aula_6.png" alt="Capa da Aula 6">
-  <div class="aula-card-body">
-    <h3>Aula 6 — Regressão Linear</h3>
-    <p>Conceitos de regressão linear e aplicação na análise de habitação e do perfil social de famílias.</p>
-    <span class="aula-link">Abrir notebook →</span>
-  </div>
-</a>
+:::
 
-<a class="aula-card" href="Notebooks/Aula_7.html">
-  <img src="Notebooks/Aula_7.png" alt="Capa da Aula 7">
-  <div class="aula-card-body">
-    <h3>Aula 7 — ANOVA</h3>
-    <p>Introdução à análise de variância, seus fundamentos e aplicações em problemas experimentais.</p>
-    <span class="aula-link">Abrir notebook →</span>
-  </div>
-</a>
+::: {.aula-card}
 
-<a class="aula-card" href="Notebooks/Aula_8.html">
-  <img src="Notebooks/Aula_8.png" alt="Capa da Aula 8">
-  <div class="aula-card-body">
-    <h3>Aula 8 — Planejamento Experimental e Análise de Experimentos</h3>
-    <p>Princípios do planejamento experimental, fatores, tratamentos, níveis, unidades experimentais, repetições e erro experimental.</p>
-    <span class="aula-link">Abrir notebook →</span>
-  </div>
-</a>
+[![](Notebooks/Aula_2.png){.aula-imagem}](Notebooks/Aula_2.html)
 
-<a class="aula-card" href="Notebooks/Aula_9.html">
-  <img src="Notebooks/Aula_9.png" alt="Capa da Aula 9">
-  <div class="aula-card-body">
-    <h3>Aula 9 — Delineamentos Experimentais</h3>
-    <p>Apresentação dos delineamentos DIC, DBC e DQL, acompanhada de exemplos e aplicações práticas.</p>
-    <span class="aula-link">Abrir notebook →</span>
-  </div>
-</a>
+### [Aula 2 — Distribuições de Probabilidade](Notebooks/Aula_2.html)
 
-</div>
+Distribuições Binomial, Normal e de Poisson aplicadas à engenharia.
+
+<div class="aula-data">10 JUL. 2026</div>
+
+:::
+
+::: {.aula-card}
+
+[![](Notebooks/Aula_3.png){.aula-imagem}](Notebooks/Aula_3.html)
+
+### [Aula 3 — Estimativa e Correlação](Notebooks/Aula_3.html)
+
+Estimativa de parâmetros, correlação e aplicações práticas.
+
+<div class="aula-data">10 JUL. 2026</div>
+
+:::
+
+::: {.aula-card}
+
+[![](Notebooks/Aula_4.png){.aula-imagem}](Notebooks/Aula_4.html)
+
+### [Aula 4 — Testes de Hipóteses](Notebooks/Aula_4.html)
+
+Fundamentos, interpretação dos resultados e exemplos práticos.
+
+<div class="aula-data">10 JUL. 2026</div>
+
+:::
+
+::: {.aula-card}
+
+[![](Notebooks/Aula_5.png){.aula-imagem}](Notebooks/Aula_5.html)
+
+### [Aula 5 — Normalidade e Homocedasticidade](Notebooks/Aula_5.html)
+
+Gráficos e testes para avaliação da normalidade e das variâncias.
+
+<div class="aula-data">10 JUL. 2026</div>
+
+:::
+
+::: {.aula-card}
+
+[![](Notebooks/Aula_6.png){.aula-imagem}](Notebooks/Aula_6.html)
+
+### [Aula 6 — Regressão Linear](Notebooks/Aula_6.html)
+
+Regressão linear aplicada à habitação e ao perfil social de famílias.
+
+<div class="aula-data">10 JUL. 2026</div>
+
+:::
+
+::: {.aula-card}
+
+[![](Notebooks/Aula_7.png){.aula-imagem}](Notebooks/Aula_7.html)
+
+### [Aula 7 — ANOVA](Notebooks/Aula_7.html)
+
+Análise de variância e aplicações em problemas experimentais.
+
+<div class="aula-data">10 JUL. 2026</div>
+
+:::
+
+::: {.aula-card}
+
+[![](Notebooks/Aula_8.png){.aula-imagem}](Notebooks/Aula_8.html)
+
+### [Aula 8 — Planejamento Experimental](Notebooks/Aula_8.html)
+
+Elementos e princípios do planejamento e da análise de experimentos.
+
+<div class="aula-data">10 JUL. 2026</div>
+
+:::
+
+::: {.aula-card}
+
+[![](Notebooks/Aula_9.png){.aula-imagem}](Notebooks/Aula_9.html)
+
+### [Aula 9 — Delineamentos Experimentais](Notebooks/Aula_9.html)
+
+Conceitos e aplicações dos delineamentos DIC, DBC e DQL.
+
+<div class="aula-data">10 JUL. 2026</div>
+
+:::
+
+:::
