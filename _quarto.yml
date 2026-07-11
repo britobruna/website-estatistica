@@ -1,13 +1,17 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "Trabalho final"
+  title: "Trabalho final - Estatística"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: lista_disciplina.qmd
+        text: PPEC0039
+      - href: about.qmd
+        text: Sobre
 
 format:
   html:
@@ -16,6 +20,3 @@ format:
       - brand
     css: styles.css
     toc: true
-
-
-
