@@ -203,27 +203,6 @@
     "text": "7. A que conclusão chegemos a respeito do uso da Amostragem?\nA escolha da amostra pode mudar os resultados da pesquisa. Se alguns setores forem mais acessíveis do que outros, a coleta pode concentrar dados em certas áreas e invisibilizar outras.\nNo caso do projeto de pesquisa citado como exemplo, isso é ainda mais importante porque o tema envolve comunidades vulnerabilizadas. Uma amostra mal planejada pode reforçar desigualdades, deixando de fora grupos menos visíveis ou áreas mais periféricas. Por isso, a decisão metodológica sobre a amostragem precisa ser pensada junto com o conhecimento do território."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Doutoranda em Engenharia Civil",
-    "section": "",
-    "text": "Sou Engenheira Civil e Engenheira de Segurança do Trabalho, com especialização em Estruturas e Fundações. Sou mestre em Engenharia Civil e Ambiental pela Universidade Estadual de Feira de Santana (UEFS) e, atualmente, doutoranda em Engenharia Civil pela Universidade Federal da Bahia (UFBA).\nAtuo nas áreas de materiais cimentícios, compósitos reforçados com fibras vegetais, estruturas em casca e soluções construtivas sustentáveis. Minha pesquisa envolve o desenvolvimento de elementos estruturais em casca reforçados com tecidos de fibras vegetais, contemplando tanto o estudo dos materiais constituintes quanto a análise experimental e a modelagem do desempenho estrutural."
-  },
-  {
-    "objectID": "index.html#sobre-mim",
-    "href": "index.html#sobre-mim",
-    "title": "Doutoranda em Engenharia Civil",
-    "section": "",
-    "text": "Sou Engenheira Civil e Engenheira de Segurança do Trabalho, com especialização em Estruturas e Fundações. Sou mestre em Engenharia Civil e Ambiental pela Universidade Estadual de Feira de Santana (UEFS) e, atualmente, doutoranda em Engenharia Civil pela Universidade Federal da Bahia (UFBA).\nAtuo nas áreas de materiais cimentícios, compósitos reforçados com fibras vegetais, estruturas em casca e soluções construtivas sustentáveis. Minha pesquisa envolve o desenvolvimento de elementos estruturais em casca reforçados com tecidos de fibras vegetais, contemplando tanto o estudo dos materiais constituintes quanto a análise experimental e a modelagem do desempenho estrutural."
-  },
-  {
-    "objectID": "index.html#sobre-a-disciplina",
-    "href": "index.html#sobre-a-disciplina",
-    "title": "Doutoranda em Engenharia Civil",
-    "section": "Sobre a disciplina",
-    "text": "Sobre a disciplina\nEste website foi desenvolvido como atividade da disciplina de Estatística e Planejamento de Experimentos. A página reúne conteúdos produzidos ao longo do curso em formato de Jupyter Notebooks, incluindo aulas autorais e materiais desenvolvidos por colegas da turma."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -235,7 +214,7 @@
     "href": "lista_disciplina.html",
     "title": "Aulas da disciplina",
     "section": "",
-    "text": "Aula 1 - Amostragem\n\n\n\nPPEC\n\nEstatística\n\nAmostragem\n\n\n\nIntrodução aos conceitos de amostragem, principais técnicas de seleção de amostras e aplicações em projetos de pesquisa comunitários.\n\n\n\n\n\n\n\n\n\n\nAula 2 - Distribuições de Probabilidade\n\n\n\n\n\n\n\n\n\n\n\n\n\nAula 3 - Estimativa e Correlação\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAula 4 - Testes de Hipóteses\n\n\n\nPPEC\n\nEstatística\n\nTestes de Hipóteses\n\n\n\nFundamentos dos testes de hipóteses estatísticos, interpretação dos resultados e resolução de exemplos práticos.\n\n\n\n\n\n\n\n\n\n\nAula 5 - Testes de Normalidade e Homocedasticidade\n\n\n\n\n\n\n\n\n\n\n\n\n\nAula 6 - Regressão Linear\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAula 7 - ANOVA\n\n\n\nPPEC\n\nEstatística\n\nANOVA\n\n\n\nIntrodução à análise de variância (ANOVA), seus fundamentos e aplicações em problemas experimentais.\n\n\n\n\n\n\n\n\n\n\nAula 8 - Planejamento Experimental e Análise de Experimentos\n\n\n\n\n\n\n\n\n\n\n\n\n\nAula 9 - Delineamentos Experimentais\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Aula 1 - Amostragem\n\n\nIntrodução aos conceitos de amostragem, principais técnicas de seleção de amostras e aplicações em projetos de pesquisa comunitários.\n\n\n\n\n\n\n\n\n\n\nAula 2 - Distribuições de Probabilidade\n\n\n\n\n\n\n\n\n\n\n\n\n\nAula 3 - Estimativa e Correlação\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAula 4 - Testes de Hipóteses\n\n\nFundamentos dos testes de hipóteses estatísticos, interpretação dos resultados e resolução de exemplos práticos.\n\n\n\n\n\n\n\n\n\n\nAula 5 - Testes de Normalidade e Homocedasticidade\n\n\n\n\n\n\n\n\n\n\n\n\n\nAula 6 - Regressão Linear\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAula 7 - ANOVA\n\n\nIntrodução à análise de variância (ANOVA), seus fundamentos e aplicações em problemas experimentais.\n\n\n\n\n\n\n\n\n\n\nAula 8 - Planejamento Experimental e Análise de Experimentos\n\n\n\n\n\n\n\n\n\n\n\n\n\nAula 9 - Delineamentos Experimentais\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Notebooks/Aula_2.html#variável-aleatória",

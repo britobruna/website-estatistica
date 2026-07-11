@@ -6,14 +6,19 @@ page-layout: full
 listing:
   contents:
     - "Notebooks/*.ipynb"
+
   type: grid
   grid-columns: 3
-  image-height: 220px
-  sort: "title"
-  categories: true
+  image-height: 250px
+  grid-item-border: false
+
   fields:
     - image
     - title
     - description
-    - categories
+
+  categories: false
+  filter-ui: false
+  sort-ui: false
+  page-size: 9
 ---

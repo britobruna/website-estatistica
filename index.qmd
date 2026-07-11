@@ -1,24 +1,27 @@
 ---
-title: "Doutoranda em Engenharia Civil"
+title: "Bruna Taiana Almeida Brito"
 
-description: "Engenheira Civil e de Segurança do Trabalho, mestre em Engenharia Civil e Ambiental e doutoranda em Engenharia Civil, com atuação em materiais cimentícios, compósitos reforçados com fibras vegetais e estruturas em casca."
+description: "Engenheira Civil | Mestre em Engenharia Civil e Ambiental | Doutoranda em Engenharia Civil"
+
+image: bruna.jpg
 
 about:
   template: trestles
+  image-width: 22em
+  image-shape: rounded
+
   links:
     - icon: github
       text: GitHub
-      url: https://www.github.com/britobruna
+      href: https://github.com/britobruna
 
-image: bruna.jpg.jpg
+    - icon: envelope
+      text: E-mail
+      href: mailto:brunabritoeng@gmail.com
+
+    - icon: journal-text
+      text: Lattes
+      href: http://lattes.cnpq.br/7379470283872650
+
+toc: false
 ---
-
-## Sobre mim
-
-Sou Engenheira Civil e Engenheira de Segurança do Trabalho, com especialização em Estruturas e Fundações. Sou mestre em Engenharia Civil e Ambiental pela Universidade Estadual de Feira de Santana (UEFS) e, atualmente, doutoranda em Engenharia Civil pela Universidade Federal da Bahia (UFBA).
-
-Atuo nas áreas de materiais cimentícios, compósitos reforçados com fibras vegetais, estruturas em casca e soluções construtivas sustentáveis. Minha pesquisa envolve o desenvolvimento de elementos estruturais em casca reforçados com tecidos de fibras vegetais, contemplando tanto o estudo dos materiais constituintes quanto a análise experimental e a modelagem do desempenho estrutural.
-
-## Sobre a disciplina
-
-Este website foi desenvolvido como atividade da disciplina de Estatística e Planejamento de Experimentos. A página reúne conteúdos produzidos ao longo do curso em formato de Jupyter Notebooks, incluindo aulas autorais e materiais desenvolvidos por colegas da turma.
