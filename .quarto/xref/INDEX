@@ -1,0 +1,38 @@
+{
+  "about.qmd": {
+    "about.html": "3f61abe1"
+  },
+  "index.qmd": {
+    "index.html": "95cd924e"
+  },
+  "lista_disciplina.qmd": {
+    "lista_disciplina.html": "295d64b4"
+  },
+  "Notebooks/Aula_1.ipynb": {
+    "Aula_1.html": "a44ca136"
+  },
+  "Notebooks/Aula_2.ipynb": {
+    "Aula_2.html": "c75ffe59"
+  },
+  "Notebooks/Aula_3.ipynb": {
+    "Aula_3.html": "61cf085b"
+  },
+  "Notebooks/Aula_4.ipynb": {
+    "Aula_4.html": "d30359cc"
+  },
+  "Notebooks/Aula_5.ipynb": {
+    "Aula_5.html": "84619ed8"
+  },
+  "Notebooks/Aula_6.ipynb": {
+    "Aula_6.html": "e827964c"
+  },
+  "Notebooks/Aula_7.ipynb": {
+    "Aula_7.html": "63936852"
+  },
+  "Notebooks/Aula_8.ipynb": {
+    "Aula_8.html": "e2609ce9"
+  },
+  "Notebooks/Aula_9.ipynb": {
+    "Aula_9.html": "d83c29ce"
+  }
+}
