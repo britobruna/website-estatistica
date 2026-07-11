@@ -2,6 +2,11 @@ project:
   type: website
   output-dir: docs
 
+  resources:
+    - "Notebooks/*.png"
+    - "Notebooks/*.jpg"
+    - "Notebooks/*.jpeg"
+
 website:
   title: "Bruna Taiana Almeida Brito"
 
