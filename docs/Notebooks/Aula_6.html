@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-07-10">
+<meta name="description" content="Conceitos de regressão linear e sua aplicação na análise de habitação e do perfil socioeconômico de famílias.">
 
-<title>aula_6 – Trabalho final - Estatística</title>
+<title>Aula 6 - Regressão Linear – Trabalho final - Estatística</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -173,9 +175,41 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Aula 6 - Regressão Linear</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">PPEC</div>
+    <div class="quarto-category">Estatística</div>
+    <div class="quarto-category">Regressão</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Conceitos de regressão linear e sua aplicação na análise de habitação e do perfil socioeconômico de famílias.
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2026-07-10</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 <p><a href="https://colab.research.google.com/github/Ludmilla-Borges/PPEC0039/blob/main/Aula_de_Regress%C3%A3o_Linear_e_Correla%C3%A7%C3%A3o.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></p>
@@ -247,7 +281,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>SciPy (scipy.stats) — aplicação de métodos estatísticos;</li>
 <li>scikit-learn (sklearn) — construção e aplicação do modelo de regressão linear.</li>
 </ul>
-<div id="cell-5" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}}" data-outputid="b841617e-9e97-4aaa-97cb-8564c8cea8a1">
+<div id="cell-6" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}}" data-outputid="b841617e-9e97-4aaa-97cb-8564c8cea8a1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># IMPORTAÇÃO DAS BIBLIOTECAS</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
@@ -479,7 +513,7 @@ Os dados simulados indicam que quanto maior a renda média, menor é a necessida
 <h3 class="anchored" data-anchor-id="exemplo-2"><strong>Exemplo 2:</strong></h3>
 <p>Foi aplicado um questionário em uma área Municipal para identificar dados demográficos da população. E a partir desses dados, foi realizado uma regressão linear para identificar a relação linear entre a renda média da família e a permanência dos filhos na escola.</p>
 <p>Os dados apresentados nesse exemplos serão simulados de forma aleatória, contudo, poderiam ser utilizados a partir de uma planilha de cadastro real ou simulado.</p>
-<div id="cell-7" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}}" data-outputid="70cf3511-8fce-4dd1-ca86-bb5dc3a44cc7">
+<div id="cell-8" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}}" data-outputid="70cf3511-8fce-4dd1-ca86-bb5dc3a44cc7">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
@@ -712,7 +746,7 @@ Os dados simulados indicam que quanto maior a renda média, maior o tempo de per
 <section id="exemplo-1" class="level3">
 <h3 class="anchored" data-anchor-id="exemplo-1"><strong>Exemplo:</strong></h3>
 <p>Vamos analisar as correlações das variáveis utilizadas nos exemplos anteriores, que foi a renda x déficit habitacil e a renda x escolaridade dos filhos (anos de estudo).</p>
-<div id="cell-10" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="c95b1e1a-9ded-4d52-a4a4-90305a73a09e">
+<div id="cell-11" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="c95b1e1a-9ded-4d52-a4a4-90305a73a09e">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Correlação de Pearson para renda x déficit habitacional</span></span>
@@ -861,7 +895,7 @@ P-valor: 4.9169e-31
 ➡ Correlação forte.</code></pre>
 </div>
 </div>
-<div id="cell-11" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="01a25c9e-a4c1-4428-fef4-49ff92ed802f">
+<div id="cell-12" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="01a25c9e-a4c1-4428-fef4-49ff92ed802f">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Correlação de Pearson para renda x escolaridade dos filhos (anos de estudo)</span></span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Correlação entre as variáveis de renda e escolaridade dos filhos (anos de estudo)"</span>)</span>

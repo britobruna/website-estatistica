@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-07-10">
+<meta name="description" content="Avaliação da normalidade e homogeneidade das variâncias utilizando gráficos QQ-Plot e testes estatísticos, com aplicações práticas.">
 
-<title>aula_5 – Trabalho final - Estatística</title>
+<title>Aula 5 - Testes de Normalidade e Homocedasticidade – Trabalho final - Estatística</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -247,9 +249,41 @@ window.Quarto = {
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Aula 5 - Testes de Normalidade e Homocedasticidade</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">PPEC</div>
+    <div class="quarto-category">Estatística</div>
+    <div class="quarto-category">Normalidade</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Avaliação da normalidade e homogeneidade das variâncias utilizando gráficos QQ-Plot e testes estatísticos, com aplicações práticas.
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2026-07-10</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 <p><a href="https://colab.research.google.com/github/britobruna/ESTATISTICA-PPEC0039/blob/main/Testes_Normalidade_Homocedasticidade.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></p>
@@ -324,7 +358,7 @@ window.Quarto = {
 <p>A construção computacional do QQ-Plot permite visualizar de forma prática o comportamento dos dados experimentais em relação à distribuição normal.</p>
 <p>No exemplo a seguir, será gerada uma amostra simulada representando resultados de resistência à flexão de compósitos cimentícios reforçados com fibras. Em seguida, será construído o gráfico QQ-Plot para avaliar visualmente a normalidade dos dados.</p>
 </div>
-<div id="cell-14" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:472}}" data-outputid="d97d7b63-b58a-4b9e-8060-370a18329e43" data-execution_count="5">
+<div id="cell-15" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:472}}" data-outputid="d97d7b63-b58a-4b9e-8060-370a18329e43" data-execution_count="5">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy <span class="im">import</span> stats</span>
@@ -769,7 +803,7 @@ window.Quarto = {
 </ol>
 <p>Caso os dados apresentem normalidade e homogeneidade das variâncias, será possível considerar a aplicação de testes paramétricos, como a ANOVA.</p>
 </div>
-<div id="cell-63" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}}" data-outputid="2d4dadc8-21fc-4fc7-8f8a-9904a35636ff" data-execution_count="6">
+<div id="cell-64" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}}" data-outputid="2d4dadc8-21fc-4fc7-8f8a-9904a35636ff" data-execution_count="6">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
@@ -1128,7 +1162,7 @@ window.Quarto = {
 <div data-align="justify">
 <p>Antes da aplicação dos testes estatísticos, é importante realizar uma análise visual dos dados. Essa etapa permite observar tendências gerais, dispersão dos resultados, presença de possíveis valores extremos e diferenças aparentes entre os grupos experimentais.</p>
 </div>
-<div id="cell-65" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:480}}" data-outputid="dafe792d-cbf0-450d-f1c9-43c7cc2e1545" data-execution_count="7">
+<div id="cell-66" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:480}}" data-outputid="dafe792d-cbf0-450d-f1c9-43c7cc2e1545" data-execution_count="7">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
@@ -1173,7 +1207,7 @@ window.Quarto = {
 <p>O boxplot permite comparar visualmente a distribuição dos resultados entre os grupos. Observa-se a posição central dos dados, a dispersão e a possível presença de valores extremos.</p>
 <p>Neste exemplo, os grupos apresentam diferenças nas medianas, sugerindo variação no desempenho mecânico das argamassas em função da presença e do tipo de fibra. Entretanto, para avaliar estatisticamente essas diferenças, é necessário verificar previamente os pressupostos de normalidade e homocedasticidade.</p>
 </div>
-<div id="cell-67" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}}" data-outputid="f6ff579a-c8b0-4327-d099-36ffab4d7438" data-execution_count="8">
+<div id="cell-68" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}}" data-outputid="f6ff579a-c8b0-4327-d099-36ffab4d7438" data-execution_count="8">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>grupos <span class="op">=</span> {<span class="st">"REF"</span>: ref, <span class="st">"PE"</span>: pe, <span class="st">"SISAL"</span>: sisal}</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> nome, valores <span class="kw">in</span> grupos.items():</span>
@@ -1205,7 +1239,7 @@ window.Quarto = {
 </div>
 </div>
 </div>
-<div id="cell-68" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="887a4881-464f-49c2-b790-4395af83c94c" data-execution_count="9">
+<div id="cell-69" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="887a4881-464f-49c2-b790-4395af83c94c" data-execution_count="9">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Teste de Shapiro-Wilk"</span>)</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"-"</span> <span class="op">*</span> <span class="dv">30</span>)</span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -1232,7 +1266,7 @@ SISAL: estatística = 0.9177, p-valor = 0.2676</code></pre>
 </ul>
 <p>Assim, quando os três grupos apresentam p-valores superiores a 0,05, considera-se que os dados possuem comportamento aproximadamente normal, permitindo avançar para a avaliação da homocedasticidade.</p>
 </div>
-<div id="cell-70" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="7d5a3741-3df2-466d-e89f-79d8fcf8e9a1" data-execution_count="10">
+<div id="cell-71" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="7d5a3741-3df2-466d-e89f-79d8fcf8e9a1" data-execution_count="10">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>estatistica_bartlett, p_bartlett <span class="op">=</span> stats.bartlett(ref, pe, sisal)</span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Teste de Bartlett"</span>)</span>

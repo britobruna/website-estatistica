@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-07-10">
+<meta name="description" content="Introdução à análise de variância (ANOVA), seus fundamentos e aplicações em problemas experimentais.">
 
-<title>Análise de Variância (ANOVA) – Trabalho final - Estatística</title>
+<title>Aula 7 - ANOVA – Trabalho final - Estatística</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -179,14 +181,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><strong>Análise de Variância (ANOVA)</strong></h1>
-</div>
+<h1 class="title">Aula 7 - ANOVA</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">PPEC</div>
+    <div class="quarto-category">Estatística</div>
+    <div class="quarto-category">ANOVA</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    Introdução à análise de variância (ANOVA), seus fundamentos e aplicações em problemas experimentais.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 10, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -240,7 +258,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Grupo C: Alta participação.</li>
 </ol>
 <p>Cada participante recebeu uma nota de compreensão territorial variando de 0 a 10.</p>
-<div id="cell-7" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="a1e97850-fdd4-4b55-d6bb-3918a30b52b9" data-execution_count="6">
+<div id="cell-6" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="a1e97850-fdd4-4b55-d6bb-3918a30b52b9" data-execution_count="6">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Dados fictícios: Nota de compreensão territorial (0 a 10)</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>grupo_a <span class="op">=</span> [<span class="fl">4.2</span>, <span class="fl">4.8</span>, <span class="fl">5.1</span>, <span class="fl">4.5</span>, <span class="fl">5.0</span>, <span class="fl">4.7</span>]  <span class="co"># Baixa participação</span></span>
@@ -267,7 +285,7 @@ P-valor: 1.483492239581329e-10</code></pre>
 <h3 class="anchored" data-anchor-id="explicando-o-exemplo-a-seguir"><strong>Explicando o Exemplo a Seguir</strong></h3>
 <p>Neste exemplo, a ANOVA é utilizada para verificar se existem diferenças significativas no tempo médio de deslocamento entre estudantes que residem a diferentes distâncias da escola. Observa-se que os estudantes do <strong>Grupo A</strong> apresentam tempos menores de deslocamento, enquanto os estudantes do <strong>Grupo C</strong> possuem os maiores tempos. A análise busca verificar se essas diferenças são estatisticamente significativas ou se poderiam ocorrer apenas por variações aleatórias da amostra.</p>
 <p>Caso o p-valor seja menor que 0,05, conclui-se que existe diferença significativa entre os grupos, indicando que a distância da residência influencia o tempo de deslocamento até a escola.</p>
-<div id="cell-10" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="e5622d36-3e0c-4262-eca9-1a284865677a" data-execution_count="9">
+<div id="cell-9" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="e5622d36-3e0c-4262-eca9-1a284865677a" data-execution_count="9">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Dados fictícios</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>grupo_a <span class="op">=</span> [<span class="dv">8</span>, <span class="dv">10</span>, <span class="dv">12</span>, <span class="dv">9</span>, <span class="dv">11</span>, <span class="dv">10</span>]</span>

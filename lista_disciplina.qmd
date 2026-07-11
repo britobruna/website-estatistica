@@ -1,0 +1,19 @@
+---
+title: "Aulas da disciplina"
+subtitle: "PPEC0039 — Estatística e Planejamento de Experimentos"
+page-layout: full
+
+listing:
+  contents:
+    - "Notebooks/*.ipynb"
+  type: grid
+  grid-columns: 3
+  image-height: 220px
+  sort: "title"
+  categories: true
+  fields:
+    - image
+    - title
+    - description
+    - categories
+---
