@@ -1,1 +1,89 @@
-/* css styles */
+/* Cores gerais */
+:root {
+  --bs-primary: #173f73;
+  --bs-link-color: #173f73;
+  --bs-link-hover-color: #c65a16;
+}
+
+/* Barra superior */
+.navbar {
+  background: linear-gradient(90deg, #123865, #245c94);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+}
+
+.navbar-title,
+.navbar-nav .nav-link,
+.navbar-brand {
+  color: white !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #ffd6a6 !important;
+}
+
+/* Títulos */
+h1,
+h2,
+h3 {
+  color: #173f73;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  border-bottom: 2px solid #e6a15c;
+  padding-bottom: 0.3rem;
+}
+
+/* Cartões das aulas */
+.quarto-grid-item {
+  border: none !important;
+  border-radius: 14px !important;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 4px 14px rgba(20, 45, 75, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.quarto-grid-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 22px rgba(20, 45, 75, 0.2);
+}
+
+.quarto-grid-item img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.quarto-grid-item .listing-title {
+  color: #173f73;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.quarto-grid-item .listing-description {
+  color: #4f5965;
+}
+
+/* Categorias */
+.quarto-category {
+  background-color: #edf3fa;
+  color: #173f73;
+  border: none;
+  border-radius: 20px;
+}
+
+/* Página inicial */
+.about-entity .about-image {
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgba(20, 45, 75, 0.18);
+}
+
+/* Rodapé */
+.nav-footer {
+  background-color: #f2f5f8;
+  border-top: 1px solid #dce3ea;
+}
