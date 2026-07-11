@@ -1,6 +1,7 @@
 ---
 title: "Aulas da disciplina"
 subtitle: "PPEC0039 — Estatística e Planejamento de Experimentos"
+
 page-layout: full
 
 listing:
@@ -9,16 +10,25 @@ listing:
 
   type: grid
   grid-columns: 3
-  image-height: 250px
-  grid-item-border: false
 
   fields:
     - image
     - title
     - description
 
+  image-height: 250px
+  image-placeholder: "Notebooks/capa_padrao.png"
+  image-lazy-loading: false
+
+  grid-item-border: false
+  grid-item-align: left
+
   categories: false
   filter-ui: false
   sort-ui: false
+
   page-size: 9
+  sort: "title asc"
+
+toc: false
 ---

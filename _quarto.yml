@@ -3,15 +3,18 @@ project:
   output-dir: docs
 
 website:
-  title: "Bruna Brito | Engenharia Civil"
+  title: "Bruna Taiana Almeida Brito"
 
   navbar:
     background: primary
+    search: true
     left:
       - href: index.qmd
         text: Início
+
       - href: lista_disciplina.qmd
         text: Aulas
+
       - href: about.qmd
         text: Sobre
 

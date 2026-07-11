@@ -1,32 +1,39 @@
-/* Cores gerais */
+/* Paleta principal */
 :root {
-  --bs-primary: #173f73;
-  --bs-link-color: #173f73;
-  --bs-link-hover-color: #c65a16;
+  --azul-principal: #1f4f82;
+  --azul-escuro: #173d68;
+  --azul-claro: #edf4fb;
+  --cinza-texto: #4f5965;
+  --cinza-borda: #dce4ec;
+  --branco: #ffffff;
 }
 
 /* Barra superior */
 .navbar {
-  background: linear-gradient(90deg, #123865, #245c94);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+  background: linear-gradient(
+    90deg,
+    var(--azul-escuro),
+    var(--azul-principal)
+  );
+  box-shadow: 0 2px 10px rgba(15, 45, 75, 0.15);
 }
 
 .navbar-title,
-.navbar-nav .nav-link,
-.navbar-brand {
-  color: white !important;
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: var(--branco) !important;
 }
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-  color: #ffd6a6 !important;
+  color: #f4c58c !important;
 }
 
 /* Títulos */
 h1,
 h2,
 h3 {
-  color: #173f73;
+  color: var(--azul-escuro);
 }
 
 h1 {
@@ -34,56 +41,90 @@ h1 {
 }
 
 h2 {
-  border-bottom: 2px solid #e6a15c;
-  padding-bottom: 0.3rem;
+  font-weight: 700;
+  margin-top: 1.7rem;
+}
+
+/* Foto da página inicial */
+.about-entity .about-image {
+  border-radius: 10px;
+  box-shadow: 0 6px 22px rgba(20, 55, 90, 0.17);
+}
+
+/* Botões abaixo da foto */
+.about-links .about-link {
+  border-radius: 6px;
+  border-color: var(--azul-principal);
+  color: var(--azul-principal);
+}
+
+.about-links .about-link:hover {
+  background-color: var(--azul-principal);
+  color: var(--branco);
 }
 
 /* Cartões das aulas */
 .quarto-grid-item {
   border: none !important;
-  border-radius: 14px !important;
+  border-radius: 12px !important;
   overflow: hidden;
-  background-color: #ffffff;
-  box-shadow: 0 4px 14px rgba(20, 45, 75, 0.12);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: var(--branco);
+  box-shadow: 0 4px 16px rgba(20, 50, 85, 0.12);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .quarto-grid-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 22px rgba(20, 45, 75, 0.2);
+  transform: translateY(-4px);
+  box-shadow: 0 9px 25px rgba(20, 50, 85, 0.18);
 }
 
-.quarto-grid-item img {
+/* Imagens dos cartões */
+.quarto-grid-item img,
+.quarto-grid-item .card-img-top {
   width: 100%;
+  height: 250px;
   object-fit: cover;
+  object-position: center;
+  background-color: #f7f9fb;
+}
+
+/* Conteúdo dos cartões */
+.quarto-grid-item .card-body {
+  padding: 1.15rem;
 }
 
 .quarto-grid-item .listing-title {
-  color: #173f73;
-  font-size: 1.1rem;
+  color: var(--azul-escuro);
+  font-size: 1.12rem;
   font-weight: 700;
 }
 
 .quarto-grid-item .listing-description {
-  color: #4f5965;
+  color: var(--cinza-texto);
+  line-height: 1.5;
 }
 
-/* Categorias */
-.quarto-category {
-  background-color: #edf3fa;
-  color: #173f73;
-  border: none;
-  border-radius: 20px;
+/* Largura da página de aulas */
+.quarto-listing-container-grid {
+  margin-top: 1.5rem;
 }
 
-/* Página inicial */
-.about-entity .about-image {
-  border-radius: 16px;
-  box-shadow: 0 5px 20px rgba(20, 45, 75, 0.18);
+/* Links */
+a {
+  color: var(--azul-principal);
+}
+
+a:hover {
+  color: var(--azul-escuro);
 }
 
 /* Rodapé */
 .nav-footer {
-  background-color: #f2f5f8;
-  border-top: 1px solid #dce3ea;
+  background-color: #f5f7fa;
+  border-top: 1px solid var(--cinza-borda);
+  color: var(--cinza-texto);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
